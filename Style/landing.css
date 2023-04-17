@@ -1,0 +1,109 @@
+/*
+
+This file is property of [https://Raspb3rry.io].
+
+*/
+
+/* --- Setup cross platforming for site. --- */
+
+
+
+/* ------- Loading Screen ------- */
+
+.lockscreen {
+	width: 100%;
+	height: 100vh;
+	background-color: var(--color-bgtrd);
+}
+
+.lockscreen-gue {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	width: var(--w03);
+	height: var(--vh50);
+	border-radius: var(--rad1rm);
+	background: var(--color-fgprim);
+}
+
+.lockpick-gue {
+	position: absolute;
+	top: 33.33%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	width: 20.00rem;
+	height: 20.00rem;
+	border-radius: 50%;
+	line-height: 20.00rem;
+	color: var(--color-gue);
+	font-size: var(--font-lrg);
+	font-weight: var(--font-weiprim);
+	background: var(--color-bgsec);
+}
+
+.lock-io {
+	position: absolute;
+	top: 79%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	height: auto;
+	width: var(--w08);
+	color: var(--color-lus);
+	line-height: var(--rad5rm);
+	font-size: var(--font-sml);
+	font-weight: var(--font-weitrd);
+	border-radius: var(--rad1rm);
+	background: var(--color-bgsec);
+	transition-duration: 0.47s;
+}
+
+.lock-io:hover {
+	color: var(--color-fgprim);
+	background: var(--color-gue);
+	transition-duration: 0.47s;
+}
+
+.lock-brand {
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+}
+
+.brand {
+	color: var(--color-lus);
+	font-weight: 200;
+	line-height: 1.70rem;
+	font-size: var(--font-sml);
+}
+
+.brand-arsf {
+	color: var(--color-gue);
+	font-style: bold;
+	font-weight: 200;
+	line-height: 1.70rem;
+	font-size: var(--font-sml);
+}
+
+.brand-rights {
+	color: var(--color-lus);
+	font-style: bold;
+	font-weight: 200;
+	line-height: 1.70rem;
+	font-size: var(--font-sml);
+}
+
+/* ------- Loading Screen :: Dark Theme Picked By Var Colors ------- */

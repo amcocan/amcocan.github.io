@@ -1,0 +1,45 @@
+/*
+
+This file is property of [https://Raspb3rry.io].
+
+*/
+
+/* ------- Default Theme ------- */
+
+.js-tag {
+	color: rgba(255, 122, 144, 1);
+}
+
+.js-attribute {
+	color: rgba(184, 130, 255, 1);
+}
+
+.js-value {
+	color: rgba(197, 255, 199, 1);
+}
+
+.js-gue {
+	color: rgba(14, 17, 24, 1);
+}
+
+/* ------- Dark Theme :: Coming Soon! ------- */
+
+/*
+
+.js-tag {
+
+}
+
+.js-attribute {
+
+}
+
+.js-value {
+
+}
+
+.js-gue {
+	
+}
+
+*/

@@ -1,0 +1,468 @@
+/*
+
+This project was coded by - [ Qrow ] - and with the use of certain
+resourses such as but not limited to fonts. Most of the resourses were
+created by other people in the comunity and are open source. If there are any
+resources that must be removed for any perpose from this project please
+contact - [ Cursed Industries ] - and it will be completed with imediate effect.
+Thank you for understanding and please enjoy this project.
+
+*/
+
+
+
+/* =========== M Control =========== */
+
+
+/* ------- Portrait ------- */
+
+@media only screen
+	and (min-device-width: 320px)
+	and (max-device-width: 767px)
+	and (orientation: portrait) {
+
+
+	/* ------- Width Control For Items ------- */
+
+	.col-mp-1 { width: 8.33%; }
+
+	.col-mp-2 { width: 16.66%; }
+
+	.col-mp-3 { width: 25%; }
+
+	.col-mp-4 { width: 33.33%; }
+
+	.col-mp-5 { width: 41.66%; }
+
+	.col-mp-6 { width: 50%; }
+
+	.col-mp-7 { width: 58.33%; }
+
+	.col-mp-8 { width: 66.66%; }
+
+	.col-mp-9 { width: 75%; }
+
+	.col-mp-10 { width: 83.33%; }
+
+	.col-mp-11 { width: 91.66%; }
+
+	.col-mp-12 { width: 100%; }
+
+
+	/* ------- Height Control For Items ------- */
+
+	.row-mp-1 { height: 8.33vh; }
+
+	.row-mp-2 { height: 16.66vh; }
+
+	.row-mp-3 { height: 25vh; }
+
+	.row-mp-4 { height: 33.33vh; }
+
+	.row-mp-5 { height: 41.66vh; }
+
+	.row-mp-6 { height: 50vh; }
+
+	.row-mp-7 { height: 58.33vh; }
+
+	.row-mp-8 { height: 66.66vh; }
+
+	.row-mp-9 { height: 75vh; }
+
+	.row-mp-10 { height: 83.33vh; }
+
+	.row-mp-11 { height: 91.66vh; }
+
+	.row-mp-12 { height: 100vh; }
+
+}
+
+
+/* ------- Landscape ------- */
+
+@media only screen
+	and (min-device-width: 320px)
+	and (max-device-width: 767px)
+	and (orientation: landscape) {
+
+
+	/* ------- Width Control For Items ------- */
+
+	.col-ml-1 { width: 8.33%; }
+
+	.col-ml-2 { width: 16.66%; }
+
+	.col-ml-3 { width: 25%; }
+
+	.col-ml-4 { width: 33.33%; }
+
+	.col-ml-5 { width: 41.66%; }
+
+	.col-ml-6 { width: 50%; }
+
+	.col-ml-7 { width: 58.33%; }
+
+	.col-ml-8 { width: 66.66%; }
+
+	.col-ml-9 { width: 75%; }
+
+	.col-ml-10 { width: 83.33%; }
+
+	.col-ml-11 { width: 91.66%; }
+
+	.col-ml-12 { width: 100%; }
+
+
+	/* ------- Height Control For Items ------- */
+
+	.row-ml-1 { height: 8.33vh; }
+
+	.row-ml-2 { height: 16.66vh; }
+
+	.row-ml-3 { height: 25vh; }
+
+	.row-ml-4 { height: 33.33vh; }
+
+	.row-ml-5 { height: 41.66vh; }
+
+	.row-ml-6 { height: 50vh; }
+
+	.row-ml-7 { height: 58.33vh; }
+
+	.row-ml-8 { height: 66.66vh; }
+
+	.row-ml-9 { height: 75vh; }
+
+	.row-ml-10 { height: 83.33vh; }
+
+	.row-ml-11 { height: 91.66vh; }
+
+	.row-ml-12 { height: 100vh; }
+
+}
+
+
+/* ------- Both ------- */
+
+@media only screen
+	and (min-device-width: 320px)
+	and (max-device-width: 767px) {
+
+
+		/* ------- Width Control For Items ------- */
+
+	.col-m-1 { width: 8.33%; }
+
+	.col-m-2 { width: 16.66%; }
+
+	.col-m-3 { width: 25%; }
+
+	.col-m-4 { width: 33.33%; }
+
+	.col-m-5 { width: 41.66%; }
+
+	.col-m-6 { width: 50%; }
+
+	.col-m-7 { width: 58.33%; }
+
+	.col-m-8 { width: 66.66%; }
+
+	.col-m-9 { width: 75%; }
+
+	.col-m-10 { width: 83.33%; }
+
+	.col-m-11 { width: 91.66%; }
+
+	.col-m-12 { width: 100%; }
+
+
+	/* ------- Height Control For Items ------- */
+
+	.row-m-1 { height: 8.33vh; }
+
+	.row-m-2 { height: 16.66vh; }
+
+	.row-m-3 { height: 25vh; }
+
+	.row-m-4 { height: 33.33vh; }
+
+	.row-m-5 { height: 41.66vh; }
+
+	.row-m-6 { height: 50vh; }
+
+	.row-m-7 { height: 58.33vh; }
+
+	.row-m-8 { height: 66.66vh; }
+
+	.row-m-9 { height: 75vh; }
+
+	.row-m-10 { height: 83.33vh; }
+
+	.row-m-11 { height: 91.66vh; }
+
+	.row-m-12 { height: 100vh; }
+
+
+}
+
+
+
+/* =========== T Control =========== */
+
+
+/* ------- Portrait ------- */
+
+@media only screen
+	and (min-device-width: 768px)
+	and (max-device-width: 1024px)
+	and (orientation: portrait) {
+
+
+	/* ------- Width Control For Items ------- */
+
+	.col-tp-1 { width: 8.33%; }
+
+	.col-tp-2 { width: 16.66%; }
+
+	.col-tp-3 { width: 25%; }
+
+	.col-tp-4 { width: 33.33%; }
+
+	.col-tp-5 { width: 41.66%; }
+
+	.col-tp-6 { width: 50%; }
+
+	.col-tp-7 { width: 58.33%; }
+
+	.col-tp-8 { width: 66.66%; }
+
+	.col-tp-9 { width: 75%; }
+
+	.col-tp-10 { width: 83.33%; }
+
+	.col-tp-11 { width: 91.66%; }
+
+	.col-tp-12 { width: 100%; }
+
+
+	/* ------- Height Control For Items ------- */
+
+	.row-tp-1 { height: 8.33vh; }
+
+	.row-tp-2 { height: 16.66vh; }
+
+	.row-tp-3 { height: 25vh; }
+
+	.row-tp-4 { height: 33.33vh; }
+
+	.row-tp-5 { height: 41.66vh; }
+
+	.row-tp-6 { height: 50vh; }
+
+	.row-tp-7 { height: 58.33vh; }
+
+	.row-tp-8 { height: 66.66vh; }
+
+	.row-tp-9 { height: 75vh; }
+
+	.row-tp-10 { height: 83.33vh; }
+
+	.row-tp-11 { height: 91.66vh; }
+
+	.row-tp-12 { height: 100vh; }
+
+}
+
+
+/* ------- Landscape ------- */
+
+@media only screen
+	and (min-device-width: 768px)
+	and (max-device-width: 1024px)
+	and (orientation: landscape) {
+
+
+	/* ------- Width Control For Items ------- */
+
+	.col-tl-1 { width: 8.33%; }
+
+	.col-tl-2 { width: 16.66%; }
+
+	.col-tl-3 { width: 25%; }
+
+	.col-tl-4 { width: 33.33%; }
+
+	.col-tl-5 { width: 41.66%; }
+
+	.col-tl-6 { width: 50%; }
+
+	.col-tl-7 { width: 58.33%; }
+
+	.col-tl-8 { width: 66.66%; }
+
+	.col-tl-9 { width: 75%; }
+
+	.col-tl-10 { width: 83.33%; }
+
+	.col-tl-11 { width: 91.66%; }
+
+	.col-tl-12 { width: 100%; }
+
+
+	/* ------- Height Control For Items ------- */
+
+	.row-tl-1 { height: 8.33vh; }
+
+	.row-tl-2 { height: 16.66vh; }
+
+	.row-tl-3 { height: 25vh; }
+
+	.row-tl-4 { height: 33.33vh; }
+
+	.row-tl-5 { height: 41.66vh; }
+
+	.row-tl-6 { height: 50vh; }
+
+	.row-tl-7 { height: 58.33vh; }
+
+	.row-tl-8 { height: 66.66vh; }
+
+	.row-tl-9 { height: 75vh; }
+
+	.row-tl-10 { height: 83.33vh; }
+
+	.row-tl-11 { height: 91.66vh; }
+
+	.row-tl-12 { height: 100vh; }
+
+}
+
+
+/* ------- Both ------- */
+
+@media only screen
+	and (min-device-width: 768px)
+	and (max-device-width: 1024px) {
+
+
+	/* ------- Width Control For Items ------- */
+
+	.col-t-1 { width: 8.33%; }
+
+	.col-t-2 { width: 16.66%; }
+
+	.col-t-3 { width: 25%; }
+
+	.col-t-4 { width: 33.33%; }
+
+	.col-t-5 { width: 41.66%; }
+
+	.col-t-6 { width: 50%; }
+
+	.col-t-7 { width: 58.33%; }
+
+	.col-t-8 { width: 66.66%; }
+
+	.col-t-9 { width: 75%; }
+
+	.col-t-10 { width: 83.33%; }
+
+	.col-t-11 { width: 91.66%; }
+
+	.col-t-12 { width: 100%; }
+
+
+	/* ------- Height Control For Items ------- */
+
+	.row-t-1 { height: 8.33vh; }
+
+	.row-t-2 { height: 16.66vh; }
+
+	.row-t-3 { height: 25vh; }
+
+	.row-t-4 { height: 33.33vh; }
+
+	.row-t-5 { height: 41.66vh; }
+
+	.row-t-6 { height: 50vh; }
+
+	.row-t-7 { height: 58.33vh; }
+
+	.row-t-8 { height: 66.66vh; }
+
+	.row-t-9 { height: 75vh; }
+
+	.row-t-10 { height: 83.33vh; }
+
+	.row-t-11 { height: 91.66vh; }
+
+	.row-t-12 { height: 100vh; }
+
+}
+
+
+
+/* =========== K Control =========== */
+
+
+/* ------- Landscape ------- */
+
+@media only screen
+	and (min-device-width: 1080px)
+	and (orientation: landscape) {
+
+
+	/* ------- Width Control For Items ------- */
+
+	.col-k-1 { width: 8.33%; }
+
+	.col-k-2 { width: 16.66%; }
+
+	.col-k-3 { width: 25%; }
+
+	.col-k-4 { width: 33.33%; }
+
+	.col-k-5 { width: 41.66%; }
+
+	.col-k-6 { width: 50%; }
+
+	.col-k-7 { width: 58.33%; }
+
+	.col-k-8 { width: 66.66%; }
+
+	.col-k-9 { width: 75%; }
+
+	.col-k-10 { width: 83.33%; }
+
+	.col-k-11 { width: 91.66%; }
+
+	.col-k-12 { width: 100%; }
+
+
+	/* ------- Height Control For Items ------- */
+
+	.row-k-1 { height: 8.33vh; }
+
+	.row-k-2 { height: 16.66vh; }
+
+	.row-k-3 { height: 25vh; }
+
+	.row-k-4 { height: 33.33vh; }
+
+	.row-k-5 { height: 41.66vh; }
+
+	.row-k-6 { height: 50vh; }
+
+	.row-k-7 { height: 58.33vh; }
+
+	.row-k-8 { height: 66.66vh; }
+
+	.row-k-9 { height: 75vh; }
+
+	.row-k-10 { height: 83.33vh; }
+
+	.row-k-11 { height: 91.66vh; }
+
+	.row-k-12 { height: 100vh; }
+
+}
