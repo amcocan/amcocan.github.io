@@ -1,3 +1,2 @@
-// This file is property of [https://Raspb3rry.io].
-
+// Default JS for Markdown Site...
 

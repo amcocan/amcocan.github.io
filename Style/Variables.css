@@ -2,180 +2,91 @@
 
 	/* ==== Gue - Stands for custom. ==== */
 
-
-
 	/* --- Root Properties --- */
-
 	--font-defscale: 10px;
-
 	--err47: none;
-
 	--inher: inherit;
-
 	--automate: auto;
-
 	--float: none;
 
-
-
 	/* --- Project Color Schemes --- */
-
 	--color-bgprim: rgba(07, 07, 07, 1.0);
-
 	--color-bgsec: rgba(16, 18, 22, 1);
-
 	--color-bgtrd: rgba(26, 28, 32, 1);
 
-
-
     --color-fgprim: rgba(247, 247, 247, 1.0);
-    
 	--color-fgsec: rgba(247, 247, 247, 1);
-
-
 
 	--color-gue: rgba(247, 0, 77, 1);
 
-
-
 	--color-var: rgba(147, 234, 147, 1);
-
 	--color-tag: rgba(234, 47, 107, 1);
-
 	--color-meta: rgba(147, 147, 234, 1);
-
 	--color-data: rgba(97, 147, 234, 1);
-
 	--color-code: rgba(147, 147, 174, 1);
-
 	--color-lus: rgba(147, 147, 157, 1);
 
-
-
 	--color-primgrad: ;
-
 	--color-secgrad: ;
 
-
-
 	/* --- Font Types In Use --- */
-
 	--font-prim: 'Fira Sans', sans-serif;
-
 	--font-sec: 'Comfortaa', cursive;
-
 	--font-code: 'Fira Code', monospace;
 
-
-
 	/* --- Font Weight --- */
-
 	--font-weiprim: 100;
-
 	--font-weisec: 200;
-
 	--font-weitrd: 300;
-
 	--font-weicode: 100;
 
-
-
 	/* --- Font Size --- */
-
 	--font-lrg: 10.00rem;
-
 	--font-med: 5.00rem;
-
 	--font-sml: 2.50rem;
-
 	--font-code: 1.40rem;
-
 	--font-qoute: 1.40rem;
-
 	--font-wip: 70.00rem;
 
-
-
 	/* --- Cursor Property --- */
-
 	--cur-prim: default;
-
 	--cur-sec: pointer;
-
 	--cur: default;
 
-
-
 	/* --- Border Radius --- */
-
 	--rad1rm: 1.00rem;
-	
 	--rad2rm: 2.00rem;
-	
 	--rad3rm: 3.00rem;
-	
 	--rad4rm: 4.00rem;
-	
 	--rad5rm: 5.00rem;
 
-
-
 	/* --- Visual Hight --- */
-
 	--vh100: 100vh;
-
 	--vh75: 75vh;
-
 	--vh50: 50vh;
-	
 	--vh25: 25vh;
-
 	--vhgue: 94vh;
 
-
-
 	/* --- Visual Width --- */
-
 	--vw100: 100vw;
-
 	--vw75: 75vw;
-
 	--vw50: 50vw;
-	
 	--vw25: 25vw;
-
 	--vwgue: 94vw;
 
-
-
 	/* --- Width Properties --- */
-
 	--w01: 8.33%;
-
 	--w02: 16.66%;
-
 	--w03: 24.99%;
-
 	--w04: 33.33%;
-	
 	--w05: 41.66%;
-	
 	--w06: 49.99%;
-
 	--w07: 58.33%;
-	
 	--w08: 66.66%;
-	
 	--w09: 74.99%;
-	
 	--w10: 83.33%;
-	
 	--w11: 91.66%;
-	
-	--w12: 100%;
-	
+	--w12: 100%;	
 	--wgue: 0.00%;
-
-
 
 }

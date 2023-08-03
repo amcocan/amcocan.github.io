@@ -1,9 +1,4 @@
-/*
-
-This file is property of [https://Raspb3rry.io].
-
-*/
-
+/* Default Stylesheet for Markdown Site */
 html {
 	font-size: var(--font-defscale);
 }
@@ -54,14 +49,12 @@ html {
 }
 
 /* --- Simplify and check cross ref with html. --- */
-
 .header-stylization {
 	font-size: var(--font-wip);
 	font-weight: var(--font-weisec);
 }
 
 /* --- Setup Navigation --- */
-
 .nav {
 	position: sticky;
 	top: 0.00rem;
@@ -87,20 +80,6 @@ html {
 	
 }
 
-.nav-li {
-
-}
-
-.nav-li:hover {
-
-}
-
-.nav-gue {
-
-}
-
-/* --- Setup Header --- */
-
-/* --- Setup Footer --- */
-
-/* --- Setup Gue --- */
+/* .nav-li {}
+.nav-li:hover {}
+.nav-gue {} */
