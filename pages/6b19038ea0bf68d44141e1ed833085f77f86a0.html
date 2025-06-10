@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <!-- Match PC scale on mobile devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+        <!-- Page Title -->
+        <title class="theme-toggle">amcocan</title>
+        <!-- Page Tab Icon -->
+        <link rel="icon" type="image/x-icon" href="../assets/src/amcocan.png" />
+        <!-- External stylesheet import/link -->
+        <link rel="stylesheet" href="../amcocan.css" />
+        <!-- External JS import. -->
+        <script src="../assets/scripts/amcocanlib.js" charset="UTF-8"></script>
+    </head>
+    <body class="bg-smoke dark:bg-midnight-500 text-midnight-100 dark:text-foggy select-none">
+        <header class="w-full bg-inherit dark:bg-inherit z-50">
+            <div class="container mx-auto max-w-6xl row px-6 md:px-8 lg:px-10 flex flex-row md:flex-row justify-between items-start pt-8 pb-4">
+                <div class="flex flex-col items-start">
+                    <a href="./index.html" class="text-2xl lg:text-4xl font-bold cursor-pointer text-rose-600 dark:text-rose-500">Andrei Cocan</a>
+                    <h3 class="text-lg lg:text-xl font-semibold mt-2">Technical Specialist</h3>
+                </div>
+                <!-- Personal Info Resume Header -->
+                <div class="flex flex-col items-end space-y-0.5 md:space-y-1 lg:space-y-2">
+                    <!-- Location -->
+                    <span class="text-xs md:text-sm lg:text-base">Duluth, GA</span>
+                    <!-- Email -->
+                    <span class="">
+                        <a target="_blank" rel="noopener" id="emailLink" class="text-xs md:text-sm lg:text-base hover:text-rose-600 dark:hover:text-rose-500 transition-colors duration-300">Please enable JavaScript to view my email.</a>
+                    </span>
+                    <!-- LinkedIn -->
+                    <span class="">
+                        <a href="https://www.linkedin.com/in/amcocan/" target="_blank" rel="noopener" title="LinkedIn / amcocan" class="text-xs md:hidden lg:hidden hover:text-rose-600 dark:hover:text-rose-500 transition-colors duration-300">amcocan / LinkedIn</a>
+                    </span>
+
+                    <!-- Social Icons -->
+                    <div class="hidden md:flex lg:flex flex-row items-center space-x-2 mt-2 lg:mt-1">
+                        <a href="https://www.linkedin.com/in/amcocan/" target="_blank" rel="noopener" title="LinkedIn / amcocan" class="hover:text-rose-600 dark:hover:text-rose-500 transition-colors duration-300">
+                            <svg class="w-4 h-4 lg:w-5 lg:h-5 fill-current" viewBox="0 0 16 16" aria-hidden="true">
+                                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                            </svg>
+                        </a>
+                        <a href="https://github.com/amcocan" target="_blank" rel="noopener" title="GitHub / amcocan" class="hover:text-rose-600 dark:hover:text-rose-500 transition-colors duration-300">
+                            <svg class="w-4 h-4 lg:w-5 lg:h-5 fill-current" viewBox="0 0 16 16" aria-hidden="true">
+                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                            </svg>
+                        </a>
+                        <a href="https://tryhackme.com/p/amcocan" target="_blank" rel="noopener" title="TryHackMe / amcocan" class="hover:text-rose-600 dark:hover:text-rose-500 transition-colors duration-300">
+                            <svg class="w-4 h-4 lg:w-5 lg:h-5 fill-current" viewBox="0 0 16 16" aria-hidden="true">
+                                <path d="M0 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm9.5 5.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1m-6.354-.354a.5.5 0 1 0 .708.708l2-2a.5.5 0 0 0 0-.708l-2-2a.5.5 0 1 0-.708.708L4.793 6.5z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section id="about" class="py-4 bg-inherit dark:bg-inherit">
+                <div class="container mx-auto max-w-6xl px-6 md:px-8 lg:px-10">
+                    <div class="flex flex-col items-start w-full text-sm lg:text-base">
+                        <p class="leading-relaxed w-full">
+                            I'm <a href="https://www.linkedin.com/in/amcocan/" target="_blank" rel="noopener" title="LinkedIn / amcocan"
+                           class="inline-flex items-center font-bold text-rose-600 dark:text-rose-500 transition-colors duration-300 group relative">
+                            Andrei Cocan
+                            <span class="absolute left-0 -bottom-0 w-0 h-0.5 bg-midnight-500 dark:bg-smoke group-hover:bg-rose-600 dark:group-hover:bg-rose-500 transition-all duration-300 group-hover:w-full"></span>
+                        </a> — a detail-driven technical specialist with hands-on experience in system troubleshooting, network support, cloud infrastructure, and endpoint security tools. I enjoy solving complex problems and helping systems run smoothly. Curious by nature and methodical by design, I thrive in technical environments where adaptability and critical thinking matter.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section id="skills" class="py-4 bg-inherit dark:bg-inherit">
+                <div class="container mx-auto max-w-6xl px-6 md:px-8 lg:px-10">
+                    <h3 class="text-lg md:text-xl lg:text-2xl font-semibold pb-2">Technical Skills</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="inline-flex items-center rounded-sm bg-foggy dark:bg-midnight-300 px-2 py-1 text-xs font-medium text-midnight-10/80 dark:text-midnight-10 ring-1 ring-midnight-10/50 dark:ring-midnight-50 hover:text-rose-600 hover:ring-rose-600 dark:hover:text-rose-500 dark:hover:ring-rose-500 ring-inset">Active Directory</span>
+                        <span class="inline-flex items-center rounded-sm bg-foggy dark:bg-midnight-300 px-2 py-1 text-xs font-medium text-midnight-10/80 dark:text-midnight-10 ring-1 ring-midnight-10/50 dark:ring-midnight-50 hover:text-rose-600 hover:ring-rose-600 dark:hover:text-rose-500 dark:hover:ring-rose-500 ring-inset">AWS</span>
+                        <span class="inline-flex items-center rounded-sm bg-foggy dark:bg-midnight-300 px-2 py-1 text-xs font-medium text-midnight-10/80 dark:text-midnight-10 ring-1 ring-midnight-10/50 dark:ring-midnight-50 hover:text-rose-600 hover:ring-rose-600 dark:hover:text-rose-500 dark:hover:ring-rose-500 ring-inset">Azure</span>
+                        <span class="inline-flex items-center rounded-sm bg-foggy dark:bg-midnight-300 px-2 py-1 text-xs font-medium text-midnight-10/80 dark:text-midnight-10 ring-1 ring-midnight-10/50 dark:ring-midnight-50 hover:text-rose-600 hover:ring-rose-600 dark:hover:text-rose-500 dark:hover:ring-rose-500 ring-inset">Bash</span>
+                        <span class="inline-flex items-center rounded-sm bg-foggy dark:bg-midnight-300 px-2 py-1 text-xs font-medium text-midnight-10/80 dark:text-midnight-10 ring-1 ring-midnight-10/50 dark:ring-midnight-50 hover:text-rose-600 hover:ring-rose-600 dark:hover:text-rose-500 dark:hover:ring-rose-500 ring-inset">DHCP</span>
+                        <span class="inline-flex items-center rounded-sm bg-foggy dark:bg-midnight-300 px-2 py-1 text-xs font-medium text-midnight-10/80 dark:text-midnight-10 ring-1 ring-midnight-10/50 dark:ring-midnight-50 hover:text-rose-600 hover:ring-rose-600 dark:hover:text-rose-500 dark:hover:ring-rose-500 ring-inset">DNS</span>
+                        <span class="inline-flex items-center rounded-sm bg-foggy dark:bg-midnight-300 px-2 py-1 text-xs font-medium text-midnight-10/80 dark:text-midnight-10 ring-1 ring-midnight-10/50 dark:ring-midnight-50 hover:text-rose-600 hover:ring-rose-600 dark:hover:text-rose-500 dark:hover:ring-rose-500 ring-inset">Hyper-V</span>
+                        <span class="inline-flex items-center rounded-sm bg-foggy dark:bg-midnight-300 px-2 py-1 text-xs font-medium text-midnight-10/80 dark:text-midnight-10 ring-1 ring-midnight-10/50 dark:ring-midnight-50 hover:text-rose-600 hover:ring-rose-600 dark:hover:text-rose-500 dark:hover:ring-rose-500 ring-inset">Jira</span>
+                        <span class="inline-flex items-center rounded-sm bg-foggy dark:bg-midnight-300 px-2 py-1 text-xs font-medium text-midnight-10/80 dark:text-midnight-10 ring-1 ring-midnight-10/50 dark:ring-midnight-50 hover:text-rose-600 hover:ring-rose-600 dark:hover:text-rose-500 dark:hover:ring-rose-500 ring-inset">LAN/WAN</span>
+                        <span class="inline-flex items-center rounded-sm bg-foggy dark:bg-midnight-300 px-2 py-1 text-xs font-medium text-midnight-10/80 dark:text-midnight-10 ring-1 ring-midnight-10/50 dark:ring-midnight-50 hover:text-rose-600 hover:ring-rose-600 dark:hover:text-rose-500 dark:hover:ring-rose-500 ring-inset">Linux</span>
+                        <span class="inline-flex items-center rounded-sm bg-foggy dark:bg-midnight-300 px-2 py-1 text-xs font-medium text-midnight-10/80 dark:text-midnight-10 ring-1 ring-midnight-10/50 dark:ring-midnight-50 hover:text-rose-600 hover:ring-rose-600 dark:hover:text-rose-500 dark:hover:ring-rose-500 ring-inset">MacOS</span>
+                        <span class="inline-flex items-center rounded-sm bg-foggy dark:bg-midnight-300 px-2 py-1 text-xs font-medium text-midnight-10/80 dark:text-midnight-10 ring-1 ring-midnight-10/50 dark:ring-midnight-50 hover:text-rose-600 hover:ring-rose-600 dark:hover:text-rose-500 dark:hover:ring-rose-500 ring-inset">MySQL</span>
+                        <span class="inline-flex items-center rounded-sm bg-foggy dark:bg-midnight-300 px-2 py-1 text-xs font-medium text-midnight-10/80 dark:text-midnight-10 ring-1 ring-midnight-10/50 dark:ring-midnight-50 hover:text-rose-600 hover:ring-rose-600 dark:hover:text-rose-500 dark:hover:ring-rose-500 ring-inset">Nessus</span>
+                        <span class="inline-flex items-center rounded-sm bg-foggy dark:bg-midnight-300 px-2 py-1 text-xs font-medium text-midnight-10/80 dark:text-midnight-10 ring-1 ring-midnight-10/50 dark:ring-midnight-50 hover:text-rose-600 hover:ring-rose-600 dark:hover:text-rose-500 dark:hover:ring-rose-500 ring-inset">Nmap</span>
+                        <span class="inline-flex items-center rounded-sm bg-foggy dark:bg-midnight-300 px-2 py-1 text-xs font-medium text-midnight-10/80 dark:text-midnight-10 ring-1 ring-midnight-10/50 dark:ring-midnight-50 hover:text-rose-600 hover:ring-rose-600 dark:hover:text-rose-500 dark:hover:ring-rose-500 ring-inset">PowerShell</span>
+                        <span class="inline-flex items-center rounded-sm bg-foggy dark:bg-midnight-300 px-2 py-1 text-xs font-medium text-midnight-10/80 dark:text-midnight-10 ring-1 ring-midnight-10/50 dark:ring-midnight-50 hover:text-rose-600 hover:ring-rose-600 dark:hover:text-rose-500 dark:hover:ring-rose-500 ring-inset">Python</span>
+                        <span class="inline-flex items-center rounded-sm bg-foggy dark:bg-midnight-300 px-2 py-1 text-xs font-medium text-midnight-10/80 dark:text-midnight-10 ring-1 ring-midnight-10/50 dark:ring-midnight-50 hover:text-rose-600 hover:ring-rose-600 dark:hover:text-rose-500 dark:hover:ring-rose-500 ring-inset">ServiceNow</span>
+                        <span class="inline-flex items-center rounded-sm bg-foggy dark:bg-midnight-300 px-2 py-1 text-xs font-medium text-midnight-10/80 dark:text-midnight-10 ring-1 ring-midnight-10/50 dark:ring-midnight-50 hover:text-rose-600 hover:ring-rose-600 dark:hover:text-rose-500 dark:hover:ring-rose-500 ring-inset">TCP/IP</span>
+                        <span class="inline-flex items-center rounded-sm bg-foggy dark:bg-midnight-300 px-2 py-1 text-xs font-medium text-midnight-10/80 dark:text-midnight-10 ring-1 ring-midnight-10/50 dark:ring-midnight-50 hover:text-rose-600 hover:ring-rose-600 dark:hover:text-rose-500 dark:hover:ring-rose-500 ring-inset">VMware</span>
+                        <span class="inline-flex items-center rounded-sm bg-foggy dark:bg-midnight-300 px-2 py-1 text-xs font-medium text-midnight-10/80 dark:text-midnight-10 ring-1 ring-midnight-10/50 dark:ring-midnight-50 hover:text-rose-600 hover:ring-rose-600 dark:hover:text-rose-500 dark:hover:ring-rose-500 ring-inset">VPN</span>
+                        <span class="inline-flex items-center rounded-sm bg-foggy dark:bg-midnight-300 px-2 py-1 text-xs font-medium text-midnight-10/80 dark:text-midnight-10 ring-1 ring-midnight-10/50 dark:ring-midnight-50 hover:text-rose-600 hover:ring-rose-600 dark:hover:text-rose-500 dark:hover:ring-rose-500 ring-inset">Wazuh</span>
+                        <span class="inline-flex items-center rounded-sm bg-foggy dark:bg-midnight-300 px-2 py-1 text-xs font-medium text-midnight-10/80 dark:text-midnight-10 ring-1 ring-midnight-10/50 dark:ring-midnight-50 hover:text-rose-600 hover:ring-rose-600 dark:hover:text-rose-500 dark:hover:ring-rose-500 ring-inset">Windows</span>
+                        <span class="inline-flex items-center rounded-sm bg-foggy dark:bg-midnight-300 px-2 py-1 text-xs font-medium text-midnight-10/80 dark:text-midnight-10 ring-1 ring-midnight-10/50 dark:ring-midnight-50 hover:text-rose-600 hover:ring-rose-600 dark:hover:text-rose-500 dark:hover:ring-rose-500 ring-inset">Wireshark</span>
+                    </div>
+                </div>
+            </section>
+            <section id="info" class="py-4 bg-inherit dark:bg-inherit">
+                <div class="container mx-auto max-w-6xl px-6 md:px-8 lg:px-10">
+                    <div class="flex flex-col-reverse md:flex-row lg:flex-row items-start space-x-20 gap-8">
+                        <!-- Experience Section -->
+                        <div class="w-full md:w-1/2 lg:w-1/2">
+                            <h3 class="text-lg md:text-xl lg:text-2xl font-semibold pb-2">Experience</h3>
+                            <p class="text-sm md:text-base lg:text-lg font-semibold">Technical Specialist</p>
+                            <a href="https://elimatlanta.net/" target="_blank" rel="noopener" class="inline-flex items-center text-sm lg:text-base dark:text-ash hover:text-rose-600 hover:dark:text-rose-500 transition-colors duration-300 group">
+                                <div class="inline-flex justify-center items-center">
+                                    <svg class="w-4 h-4 fill-midnight-100 dark:fill-ash group-hover:fill-rose-600 dark:group-hover:fill-rose-500 inline-flex justify-center items-center mr-2 transition-colors duration-300" viewBox="0 0 16 16" aria-hidden="true">
+                                        <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1 1 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4 4 0 0 1-.128-1.287z"/>
+                                        <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243z"/>
+                                    </svg>
+                                </div>
+                                Romanian Pentecostal Church
+                            </a>
+                            <div class="flex flex-wrap py-1 gap-2">
+                                <span class="inline-flex items-center rounded-sm bg-foggy dark:bg-midnight-300 px-2 py-1 text-xs font-medium text-midnight-10/80 dark:text-midnight-10 ring-1 ring-midnight-10/50 dark:ring-midnight-50 hover:text-rose-600 hover:ring-rose-600 dark:hover:text-rose-500 dark:hover:ring-rose-500 ring-inset">2017 – Present</span>
+                                <span class="inline-flex items-center rounded-sm bg-foggy dark:bg-midnight-300 px-2 py-1 text-xs font-medium text-midnight-10/80 dark:text-midnight-10 ring-1 ring-midnight-10/50 dark:ring-midnight-50 hover:text-rose-600 hover:ring-rose-600 dark:hover:text-rose-500 dark:hover:ring-rose-500 ring-inset">Volunteer</span>
+                            </div>
+                            <ul class="list-disc list-outside text-sm lg:text-base pl-4.5 space-y-1 dark:text-ash">
+                                <li>Troubleshot hardware, software, and network issues across campus systems.</li>
+                                <li>Implemented improvements to system reliability and performance.</li>
+                                <li>Maintained printers, workstations, livestream tech, wireless and wired networks.</li>
+                            </ul>
+
+                            <p class="text-sm md:text-base lg:text-lg font-semibold mt-4">CNC & Laser Systems Technician</p>
+                            <a href="https://euromachine.us/" target="_blank" rel="noopener" class="inline-flex items-center text-sm lg:text-base dark:text-ash hover:text-rose-600 hover:dark:text-rose-500 transition-colors duration-300 group">
+                                <div class="inline-flex justify-center items-center">
+                                    <svg class="w-4 h-4 fill-midnight-100 dark:fill-ash group-hover:fill-rose-600 dark:group-hover:fill-rose-500 inline-flex justify-center items-center mr-2 transition-colors duration-300" viewBox="0 0 16 16" aria-hidden="true">
+                                        <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1 1 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4 4 0 0 1-.128-1.287z"/>
+                                        <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243z"/>
+                                    </svg>
+                                </div>
+                                Euro Machine Works Inc.
+                            </a>
+                            <div class="flex flex-wrap py-1">
+                                <span class="inline-flex items-center rounded-sm bg-foggy dark:bg-midnight-300 px-2 py-1 text-xs font-medium text-midnight-10/80 dark:text-midnight-10 ring-1 ring-midnight-10/50 dark:ring-midnight-50 hover:text-rose-600 hover:ring-rose-600 dark:hover:text-rose-500 dark:hover:ring-rose-500 ring-inset">2018 – 2021</span>
+                            </div>
+                            <ul class="list-disc list-outside text-sm lg:text-base pl-4.5 space-y-1 dark:text-ash">
+                                <li>Operated and maintained precision CNC equipment and laser systems with a focus on efficiency and accuracy.</li>
+                                <li>Diagnosed issues with software and hardware configurations on precision machines.</li>
+                                <li>Executed QA checks ensuring compliance with technical specs and client specifications.</li>
+                            </ul>
+                        </div>
+                        <!-- Education and Certifications Section -->
+                        <div class="flex w-full md:w-1/2 lg:w-1/2 flex-col-reverse items-start space-x-20 gap-8">
+                            <!-- Education Section -->
+                            <div class="w-full">
+                                <h3 class="text-lg md:text-xl lg:text-2xl font-semibold pb-2">Education</h3>
+                                <div class="space-y-2">
+                                    <div>
+                                        <p class="text-sm md:text-base lg:text-lg font-semibold">B.S. Cybersecurity</p>
+                                        <a href="https://catalog.fullsail.edu/degrees/cybersecurity-bachelor-of-science-completion-program/online?_gl=1" target="_blank" rel="noopener" class="inline-flex items-center text-sm lg:text-base dark:text-ash hover:text-rose-600 hover:dark:text-rose-500 transition-colors duration-300 group">
+                                            <div class="inline-flex justify-center items-center">
+                                                <svg class="w-4 h-4 fill-midnight-100 dark:fill-ash group-hover:fill-rose-600 dark:group-hover:fill-rose-500 inline-flex justify-center items-center mr-2 transition-colors duration-300" viewBox="0 0 16 16" aria-hidden="true">
+                                                    <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1 1 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4 4 0 0 1-.128-1.287z"/>
+                                                    <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243z"/>
+                                                </svg>
+                                            </div>
+                                            Full Sail University
+                                        </a>
+                                        <div class="flex flex-wrap py-1 gap-2">
+                                            <span class="inline-flex items-center rounded-sm bg-foggy dark:bg-midnight-300 px-2 py-1 text-xs font-medium text-midnight-10/80 dark:text-midnight-10 ring-1 ring-midnight-10/50 dark:ring-midnight-50 hover:text-rose-600 hover:ring-rose-600 dark:hover:text-rose-500 dark:hover:ring-rose-500 ring-inset">Sep 2024</span>
+                                            <span class="inline-flex items-center rounded-sm bg-foggy dark:bg-midnight-300 px-2 py-1 text-xs font-medium text-midnight-10/80 dark:text-midnight-10 ring-1 ring-midnight-10/50 dark:ring-midnight-50 hover:text-rose-600 hover:ring-rose-600 dark:hover:text-rose-500 dark:hover:ring-rose-500 ring-inset">Valedictorian</span>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p class="text-sm md:text-base lg:text-lg font-semibold">A.S. Information Technology</p>
+                                        <a href="https://catalog.fullsail.edu/degrees/information-technology-associate-of-science/online?_gl=1" target="_blank" rel="noopener" class="inline-flex items-center text-sm lg:text-base dark:text-ash hover:text-rose-600 hover:dark:text-rose-500 transition-colors duration-300 group">
+                                            <div class="inline-flex justify-center items-center">
+                                                <svg class="w-4 h-4 fill-midnight-100 dark:fill-ash group-hover:fill-rose-600 dark:group-hover:fill-rose-500 inline-flex justify-center items-center mr-2 transition-colors duration-300" viewBox="0 0 16 16" aria-hidden="true">
+                                                    <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1 1 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4 4 0 0 1-.128-1.287z"/>
+                                                    <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243z"/>
+                                                </svg>
+                                            </div>
+                                            Full Sail University
+                                        </a>
+                                        <div class="flex flex-wrap py-1 gap-2">
+                                            <span class="inline-flex items-center rounded-sm bg-foggy dark:bg-midnight-300 px-2 py-1 text-xs font-medium text-midnight-10/80 dark:text-midnight-10 ring-1 ring-midnight-10/50 dark:ring-midnight-50 hover:text-rose-600 hover:ring-rose-600 dark:hover:text-rose-500 dark:hover:ring-rose-500 ring-inset">Jun 2023</span>
+                                            <span class="inline-flex items-center rounded-sm bg-foggy dark:bg-midnight-300 px-2 py-1 text-xs font-medium text-midnight-10/80 dark:text-midnight-10 ring-1 ring-midnight-10/50 dark:ring-midnight-50 hover:text-rose-600 hover:ring-rose-600 dark:hover:text-rose-500 dark:hover:ring-rose-500 ring-inset">Valedictorian</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Certifications Section -->
+                            <div class="w-full">
+                                <h3 class="text-lg md:text-xl lg:text-2xl font-semibold pb-2">Certifications</h3>
+                                <div class="flex flex-wrap gap-2">
+                                    <a href="https://www.credly.com/badges/aef1d0c0-9e9a-4073-acf0-53f074aeb13a" target="_blank" rel="noopener" class="inline-flex items-center rounded-sm bg-foggy dark:bg-midnight-300 px-2 py-1 text-xs font-medium text-midnight-10/80 dark:text-midnight-10 ring-1 ring-midnight-10/50 dark:ring-midnight-50 hover:text-rose-600 hover:ring-rose-600 dark:hover:text-rose-500 dark:hover:ring-rose-500 ring-inset">CompTIA Security+</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="info" class="py-4 bg-inherit dark:bg-inherit">
+                <div class="container mx-auto max-w-6xl px-6 md:px-8 lg:px-10 space-y-2">
+                    <h3 class="text-lg md:text-xl lg:text-2xl font-semibold pb-2">Relevant Coursework Experience</h3>
+                    <p class="text-sm md:text-base lg:text-lg font-semibold">Hands-On IT Infrastructure & Cloud Projects</p>
+                    <ul class="list-disc list-outside text-sm lg:text-base pl-4.5 space-y-1 dark:text-ash">
+                        <li>Designed and deployed virtualized environments using VMware and Hyper-V, configuring resource allocation, networking, and storage for optimal performance.</li>
+                        <li>Implemented a hybrid cloud solution integrating on-premises servers with AWS/Azure, ensuring secure data synchronization and scalability.</li>
+                        <li>Developed and tested disaster recovery plans using cloud backups (e.g. Azure Backup) to ensure business continuity for a simulated enterprise.</li>
+                    </ul>
+                    <p class="text-sm md:text-base lg:text-lg font-semibold">Network Administration & Security</p>
+                    <ul class="list-disc list-outside text-sm lg:text-base pl-4.5 space-y-1 dark:text-ash">
+                        <li>Conducted Nessus vulnerability scans and applied patch management strategies to harden systems against exploits.</li>
+                        <li>Set up Identity & Access Management (IAM) policies in Active Directory and cloud platforms (AWS IAM, Azure AD) to enforce least-privilege access.</li>
+                    </ul>
+                    <p class="text-sm md:text-base lg:text-lg font-semibold">Systems Administration & Automation</p>
+                    <ul class="list-disc list-outside text-sm lg:text-base pl-4.5 space-y-1 dark:text-ash">
+                        <li>Automated routine IT tasks using PowerShell and Bash scripting, reducing manual workload for system updates and log monitoring.</li>
+                        <li>Administered Windows Server & Linux (Ubuntu, CentOS) environments, managing user permissions, group policies, and service configurations.</li>
+                        <li>Created comprehensive technical documentation for system deployments, including network diagrams, SOPs, and troubleshooting guides.</li>
+                    </ul>
+                    <p class="text-sm md:text-base lg:text-lg font-semibold">Collaborative IT Support & Troubleshooting</p>
+                    <ul class="list-disc list-outside text-sm lg:text-base pl-4.5 space-y-1 dark:text-ash">
+                        <li>Provided helpdesk support in a lab environment, resolving hardware/software issues (OS errors, driver conflicts, network connectivity).</li>
+                        <li>Simulated IT project workflows using Agile methodologies, coordinating with peers on system upgrades and cloud migrations.</li>
+                        <li>Presented cost-benefit analyses of cloud vs. on-prem solutions to stakeholders, aligning technical decisions with business needs.</li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+        <footer id="footer" class="py-8 bg-inherit dark:bg-inherit">
+            <div class="container mx-auto max-w-6xl py-4 px-6 md:px-8 lg:px-10">
+                <div class="flex w-full justify-center items-center space-x-2">
+                    <a target="_blank" rel="noopener" title="Email / amcocan" id="emailLink" class="hover:text-rose-600 dark:hover:text-rose-500 transition-colors duration-300">
+                        <svg class="w-4 h-4 lg:w-5 lg:h-5 fill-current" viewBox="0 0 16 16" aria-hidden="true">
+                            <path d="M4.98 4a.5.5 0 0 0-.39.188L1.54 8H6a.5.5 0 0 1 .5.5 1.5 1.5 0 1 0 3 0A.5.5 0 0 1 10 8h4.46l-3.05-3.812A.5.5 0 0 0 11.02 4zm-1.17-.437A1.5 1.5 0 0 1 4.98 3h6.04a1.5 1.5 0 0 1 1.17.563l3.7 4.625a.5.5 0 0 1 .106.374l-.39 3.124A1.5 1.5 0 0 1 14.117 13H1.883a1.5 1.5 0 0 1-1.489-1.314l-.39-3.124a.5.5 0 0 1 .106-.374z"/>
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/amcocan/" target="_blank" rel="noopener" title="LinkedIn / amcocan" class="hover:text-rose-600 dark:hover:text-rose-500 transition-colors duration-300">
+                        <svg class="w-4 h-4 lg:w-5 lg:h-5 fill-current" viewBox="0 0 16 16" aria-hidden="true">
+                            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                        </svg>
+                    </a>
+                    <a href="https://github.com/amcocan" target="_blank" rel="noopener" title="GitHub / amcocan" class="hover:text-rose-600 dark:hover:text-rose-500 transition-colors duration-300">
+                        <svg class="w-4 h-4 lg:w-5 lg:h-5 fill-current" viewBox="0 0 16 16" aria-hidden="true">
+                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                        </svg>
+                    </a>
+                    <a href="https://tryhackme.com/p/amcocan" target="_blank" rel="noopener" title="TryHackMe / amcocan" class="hover:text-rose-600 dark:hover:text-rose-500 transition-colors duration-300">
+                        <svg class="w-4 h-4 lg:w-5 lg:h-5 fill-current" viewBox="0 0 16 16" aria-hidden="true">
+                            <path d="M0 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm9.5 5.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1m-6.354-.354a.5.5 0 1 0 .708.708l2-2a.5.5 0 0 0 0-.708l-2-2a.5.5 0 1 0-.708.708L4.793 6.5z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="container mx-auto max-w-6xl px-6 md:px-8 lg:px-10 text-center">
+                <p>&copy; <span id="current-year"></span> amcocan. All rights reserved.</p>
+            </div>
+        </footer>
+        <div class="hidden md:flex lg:flex xl:flex">
+            <div id="scroll-to-top" class="hidden">
+                <div class="flex justify-center items-center size-10 fixed bottom-4 right-4 m-4 bg-gray-200 dark:bg-midnight-100 hover:bg-rose-500 hover:text-smoke rounded-full shadow-md shadow-midnight-10/30 dark:shadow-black/40 cursor-pointer z-70">
+                    <span class="flex text-inherit font-bold">↑</span>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
